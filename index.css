@@ -1,0 +1,70 @@
+body
+{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1
+{
+    font-family: 'Ewert', cursive;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 2px -2px #D3D3D3;	
+}
+
+.cite
+{
+	font-family: 'Bad Script', cursive;
+	border: 1px dotted #000;
+	margin: 5px;
+	padding: 5px;
+}
+
+.news
+{
+    font-family: 'Playfair Display', serif;
+    -webkit-column-span: all;
+    font-weight: bold;
+    margin: 10px;
+	padding: 10px;
+    font-size: 20px;
+    border: 2px solid  #696969;
+}
+
+.main
+{
+    text-align: justify;
+    line-height: 1.25;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 50px;
+    -webkit-column-rule: 10px solid #000;
+	border: 3px dashed #000;
+	margin: 10px;
+	padding: 10px;
+}
+
+p
+{
+    margin: 0;
+    text-indent: 25px;
+    hyphens: auto;
+}
+
+p:first-letter
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.news > img
+{
+    float: right;
+    margin-left: 10px;
+}
+
+.picture
+{
+    -webkit-column-count: 3;
+    text-align: center;
+}
