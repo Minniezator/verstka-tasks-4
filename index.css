@@ -1,6 +1,7 @@
 body
 {
-	font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background: url('http://www.pageresource.com/wallpapers/wallpaper/parchment-paper-texture-picture-free-graph_1173989.jpg') repeat;
 }
 
 h1
@@ -10,38 +11,66 @@ h1
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 10px;
-    text-shadow: 2px -2px #D3D3D3;	
+    text-shadow: 2px -2px #D3D3D3;    
+}
+
+h2
+{
+    font-size: 30px;
+    margin-left: 25px;
 }
 
 .cite
 {
-	font-family: 'Bad Script', cursive;
-	border: 1px dotted #000;
-	margin: 5px;
-	padding: 5px;
+    font-family: 'Bad Script', cursive;
+    border: 1px dotted #000;
+    margin: 5px;
+    padding: 5px;
+}
+
+[class^="news"]
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid  #696969;
 }
 
 .news
 {
-    font-family: 'Playfair Display', serif;
     -webkit-column-span: all;
-    font-weight: bold;
-    margin: 10px;
-	padding: 10px;
-    font-size: 20px;
-    border: 2px solid  #696969;
 }
 
 .main
 {
     text-align: justify;
     line-height: 1.25;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 50px;
+    border: 3px dashed #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+[class^="article-"]
+{
     -webkit-column-rule: 10px solid #000;
-	border: 3px dashed #000;
-	margin: 10px;
-	padding: 10px;
+    -webkit-column-gap: 50px;
+}
+
+.article-1
+{
+    -webkit-column-count: 4;
+}
+
+.article-2
+{
+    -webkit-column-count: 2;
+}
+
+.article-3
+{
+    -webkit-column-count: 2;
 }
 
 p
@@ -61,6 +90,13 @@ p:first-letter
 {
     float: right;
     margin-left: 10px;
+    margin-right: 5px;
+}
+
+img
+{
+    margin-left: 15%;
+    margin: 5px inherit;
 }
 
 .picture
